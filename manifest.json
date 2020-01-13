@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Brigham Five",
+  "description": "Better video controls for watching recorded streams of your favorite basketball team online",
+  "version": "0.2",
+  "author": "knomedia",
+  "permissions": [
+    "tabs", "https://www.byutv.org/player/*"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_icon": "B5.png"
+  }
+}
