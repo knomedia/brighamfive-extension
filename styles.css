@@ -1,0 +1,33 @@
+.BrighamFive {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 300px;
+  height: 100px;
+  border-radius: 4px;
+  padding: 20px;
+  font-size: 1.0em;
+  padding-top: 32px;
+  background: rgba(0, 0, 0, .95);
+  color: white;
+  opacity: 0;
+  display: flex;
+  transition: opacity 200ms ease-in;
+}
+.BrighamFive__show {
+  opacity: 1;
+}
+.BrighamFive__time__Outer {
+  flex: 1;
+  text-align: center;
+}
+.BrighamFive__speed__Outer {
+  flex: 1;
+  text-align: center;
+}
+.BrighamFive__time {
+  text-align: center;
+}
+.BrighamFive__speed {
+  text-align: center;
+}
